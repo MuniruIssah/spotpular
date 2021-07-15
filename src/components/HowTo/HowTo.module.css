@@ -1,0 +1,22 @@
+.howToPlay{
+    color:white ;
+    background: hsl(9, 79%, 67%);
+    border: none;
+    height: 45px;
+    font-weight: 700;
+    font-size: 20px;
+    width: 45px;
+    border-radius: 20%;
+    position: absolute;
+    bottom: 20px;
+    z-index: 3;
+    right: 20px;
+    transition: all 0.2s ease-in-out;
+}
+.howToPlay:hover{
+    transform: scale(1.1);
+    right: 25px;
+    bottom: 25px;
+    box-shadow: 2px 2px 5px rgb(177, 138, 138) ;
+    border-radius: 50%;
+}
