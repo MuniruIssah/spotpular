@@ -1,6 +1,7 @@
 .spHeader{
     position: fixed;
     top:0;
+    z-index: 5;
     background-color: black;
     color: white;
     width: 100vw;
