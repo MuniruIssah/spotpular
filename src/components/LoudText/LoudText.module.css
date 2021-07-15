@@ -1,0 +1,6 @@
+.loudText{
+    font-weight: 900;
+    font-size: 7vw;
+    color: hsl(9, 79%, 47%);
+    line-height: 75px;
+}

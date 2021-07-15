@@ -1,0 +1,20 @@
+.spHeader{
+    position: fixed;
+    top:0;
+    background-color: black;
+    color: white;
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.spHeader img{
+    width: 60px;
+    margin-left: 7%;
+}
+.spHeader span{
+    font-weight: 500;
+    font-size: 25px;
+    font-family: 'Mitr', sans-serif;
+}

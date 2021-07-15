@@ -15,6 +15,9 @@
 
 .App-header {
   min-height: 100vh;
+  /* background-color:hsl(9, 79%, 87%) ; */
+  background-color:#ffcdd2;
+
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -23,7 +26,9 @@
 }
 
 .App-link {
-  color: rgb(112, 76, 182);
+  /* color: hsl(9, 79%, 47%); */
+  /* color: hsl(9, 79%, 87%); */
+  color: hsl(9, 79%, 67%);
 }
 
 @keyframes App-logo-float {

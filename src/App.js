@@ -1,13 +1,20 @@
-import React from 'react';
-import logo from './logo.svg';
-import { Counter } from './features/counter/Counter';
-import './App.css';
+import React from "react";
+
+import "./App.css";
+
+import HeaderAndContentLayout from "./layouts/headerAndContent/headerAndContentLayout";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+      <HeaderAndContentLayout />
+    </div>
+  );
+}
+
+export default App;
+
+/* <img src={logo} className="App-logo" alt="logo" />
         <Counter />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -49,10 +56,4 @@ function App() {
           >
             React Redux
           </a>
-        </span>
-      </header>
-    </div>
-  );
-}
-
-export default App;
+        </span> */

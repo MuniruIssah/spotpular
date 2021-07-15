@@ -1,0 +1,18 @@
+.startButton{
+    background-color: hsl(9, 79%, 47%);
+    border: none;
+    border-radius: 35px;
+    padding: 13px 65px;
+    color: white;
+    font-size: 14px;
+    letter-spacing: 1.7px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+.startButton:hover{
+    transform: scale(1.02);
+    background-color: hsl(9, 79%, 42%);
+
+}
