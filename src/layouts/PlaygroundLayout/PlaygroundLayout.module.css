@@ -1,0 +1,11 @@
+.playgroundLayout {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(240, 4%, 9%);
+  align-items: center;
+  /* margin-top: 10vh; */
+  justify-content: center;
+}

@@ -1,13 +1,16 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./App.css";
+import { SpSideBar } from "./components/SPSideBar/spSideBar";
 import LandingPage from "./pages/LandingPage/landingPage";
+import Playground from "./pages/PlayGround/playground";
 
 function App() {
   return (
     <div className="App">
       <Router>
-        <Route path='/' component={LandingPage}/>
+        <Route exact path='/' component={LandingPage}/>
+        <Route path='/aside' component={Playground}/>
       </Router>
     </div>
   );

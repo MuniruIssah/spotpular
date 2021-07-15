@@ -1,0 +1,23 @@
+.spSideBar{
+    width: 100%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    height: 100vh;
+    background-color: black;
+}
+.spSideBar .spSideBarButton{
+    display: block;
+    background-color:#343434;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius:5px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    text-align: left;
+    font-size: 15px;
+    width: 100%;
+}
+.buttonWrap{
+    margin-top: 2em;
+}

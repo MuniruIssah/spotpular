@@ -1,11 +1,10 @@
 import React from 'react'
 import styles from "./SPHeader.module.css";
-import spIcon from "../../assets/spotifyWhite.png"
+import { Icon } from '../Icon/icon';
 const SpHeader = () => {
     return (
         <header className={styles.spHeader}>
-            <img src={spIcon} alt='spotify icon'/>
-            <span>Spotpular</span>
+            <Icon/>
         </header>
     )
 }

@@ -1,0 +1,15 @@
+.spIcon{
+display: flex;
+justify-content: flex-start;
+align-items: center;
+}
+.spIcon img{
+    width: min(60px,100%);
+    /* margin-left: 7%; */
+}
+.spIcon span{
+    font-weight: 500;
+    font-size:23px;
+    color: white;
+    font-family: 'Mitr', sans-serif;
+}

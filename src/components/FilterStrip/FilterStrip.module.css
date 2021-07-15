@@ -1,0 +1,41 @@
+.filterStrip {
+  width: 100%;
+  padding: 1rem 20px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.filterStripButton {
+  padding: 10px 18px;
+  font-size: 15.5px;
+  letter-spacing: 0.5px;
+  color: white;
+  /* font-family: 'Sarala', sans-serif; */
+  background-color:rgb(44, 44, 48,0) ;
+  position: relative;
+  z-index: 5100;
+  border-radius: 6px;
+  font-weight: 700;
+  transition: background-color ease-out 250ms;
+}
+/* 
+.filterStripButton::before {
+  content: " ";
+  position: absolute;
+  z-index: 1;
+  background-color: rgb(44, 44, 48,0.5) ;
+  height: 100%;
+  width: 100%;
+  border-radius: 6px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+} */
+
+
+.filterStripButton:hover {
+    background-color:rgb(44, 44, 48) ;
+
+}

@@ -42,3 +42,8 @@
     transform: translateY(0px);
   }
 }
+
+button{
+  background:none;
+  border: none;
+}
