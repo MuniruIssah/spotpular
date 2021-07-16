@@ -1,0 +1,99 @@
+.modal {
+  z-index: 10;
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  bottom: 0;
+  background-color: #00000070;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.closeButton{
+    color: hsl(240, 3%, 12%);
+    transform: rotateZ(40deg);
+    font-size: 25px;
+    font-weight: 600;
+    align-self: flex-end;
+    width: 20px;
+    height: 30px;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+
+.modalForm {
+  /* min-height: 20vh; */
+  width: min(500px, 80vh);
+  padding: 15px 30px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(240, 3%, 12%);
+  color: white;
+}
+.modalHeading{
+    font-weight: 800;
+    font-size: 25px;
+    display: block;
+    text-align: left;
+}
+.modalFormWrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+.modalFormButton{
+    background-color: dodgerblue;
+    color: white;
+    margin-top: 1rem;
+    align-self: flex-end;
+    border-radius: 6px;
+    padding: 6px 18px;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.radioButton{
+    padding: 6px 10px;
+    color: #ffffff70;
+    margin-right: 10px ;
+    font-size: 14px;
+    border: 1px solid #ffffff80;
+    border-radius: 4px;
+    transition: all 250ms ease-in;
+  }
+
+
+  .radioButton:hover{
+    color: #ffffff;
+    border: 1px solid #ffffff00;
+    background-color: hsl(240, 3%, 32%);
+
+  }
+
+  .radioButtonGroup{
+      display: flex;
+
+  }
+
+  .formLabels{
+      margin-top: 0.3em;
+      margin-bottom: 0.5em;
+  }
+  .numberSelect{
+      width: 80%;
+      background-color: transparent;
+      border: 1px solid #ffffff60;
+      padding: 10px;
+      font-size: 16px;
+      border-radius: 6px;
+      height: 25px;
+      color: white;
+      margin-bottom: 0.5rem;
+  }

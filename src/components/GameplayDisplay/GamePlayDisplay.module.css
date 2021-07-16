@@ -1,0 +1,41 @@
+.gamePlayDisplay{
+    width: min(500px,80vw);
+
+}
+
+.artists {
+    list-style: none;
+    padding-left: 0;
+    width: 100%;
+  }
+  
+  .artists li {
+    display: flex;
+    align-items: center;
+    background-color: hsl(240, 3%, 32%);
+    border-radius: 6px;
+    padding: 16px;
+    margin-bottom: 1em;
+  }
+  
+  .artists p {
+    max-width: none;
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .artistsThumb {
+    overflow: hidden;
+    flex-shrink: 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 6px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: .5em;
+    margin-right: 1rem;
+  }
+  

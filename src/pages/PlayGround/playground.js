@@ -9,13 +9,24 @@ import { CircularImageCard } from "../../components/Cards/CircularImageCard/circ
 import GridDisplay from "../../components/GridDisplay/gridDisplay";
 import { BoxImageCard } from "../../components/Cards/BoxImageCard/boxImageCard";
 import { BottomImageCard } from "../../components/Cards/BottomImageCard/bottomImageCard";
+import Modal from "../../components/Modal/modal";
+import GamePlayDisplay from "../../components/GameplayDisplay/gamePlayDisplay";
 const Playground = () => {
   return (
     <PlaygroundLayout>
-      {/* <FilterStrip/> */}
-      {/* <CircularImageCard image={burna} title='Burna Boy' description='Artist' />
-            <CircularImageCard image={burna} title='Burna Boy' description='Artist' /> */}
-      <span className='sectionTitle'>Browse All</span>
+      <GamePlayDisplay />
+    </PlaygroundLayout>
+  );
+};
+
+export default Playground;
+
+/* <Modal /> */
+
+/* <FilterStrip/> */
+/* <CircularImageCard image={burna} title='Burna Boy' description='Artist' />
+            <CircularImageCard image={burna} title='Burna Boy' description='Artist' /> */
+/* <span className='sectionTitle'>Browse All</span>
       <GridDisplay>
         <CircularImageCard
           image={burna}
@@ -50,9 +61,4 @@ const Playground = () => {
         />
         <BoxImageCard image={davido} title="Davido" description="Artist" />
         <BottomImageCard image={burna} title="Burna Boy" />
-      </GridDisplay>
-    </PlaygroundLayout>
-  );
-};
-
-export default Playground;
+      </GridDisplay> */
