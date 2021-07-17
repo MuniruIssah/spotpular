@@ -19,9 +19,11 @@ const ModalForm = () => {
   return (
     <form className={styles.modalFormWrapper}>
       <label className={styles.formLabels}>Select Game Type</label>
-        <RadioGroup/>
+      <RadioGroup />
       <label className={styles.formLabels}>Select List Height</label>
-      <SelectNumber/>
+      <SelectNumber />
+      <label className={styles.formLabels}>Select List Mode</label>
+      <SelectMode/>
 
       <button className={styles.modalFormButton}>Let's See You Go</button>
     </form>
@@ -29,30 +31,54 @@ const ModalForm = () => {
 };
 
 const RadioButton = ({ title }) => {
-    const radioRef=React.createRef(null);
-    const handleChange=()=>{
-        alert(radioRef.current.checked)
-
-    }
+  const radioRef = React.createRef(null);
+  const handleChange = () => {
+    alert(radioRef.current.checked);
+  };
   return (
     <>
-      <input type="radio" value={`${title}`} name='gameType' ref={radioRef} style={{ display: "none" }} />
-      <button type='button' onClick={handleChange} className={styles.radioButton}>{title}</button>
+      <input
+        type="radio"
+        value={`${title}`}
+        name="gameType"
+        ref={radioRef}
+        style={{ display: "none" }}
+      />
+      <button
+        type="button"
+        onClick={handleChange}
+        className={styles.radioButton}
+      >
+        {title}
+      </button>
     </>
   );
 };
 
 const RadioGroup = () => {
+  const radioTypes = ["Spot The Pop", "Sort The Spots"];
   return (
     <div className={styles.radioButtonGroup}>
-      <RadioButton title="Spot The Pop" />
-      <RadioButton title="Sort The Spots" />
+      {radioTypes.map((radioType) => (
+        <RadioButton key={radioType} title={radioType} />
+      ))}
     </div>
   );
 };
 
-const SelectNumber=()=>{
-    return(
-        <input type='number' className={styles.numberSelect} min={2}/>
-    );
-}
+const SelectNumber = () => {
+  return <input type="number" className={styles.numberSelect} min={2} />;
+};
+
+const SelectMode = () => {
+  const selectOptions = ["Level", "Race Against Time"];
+  return (
+    <select className={styles.modeSelect}>
+      {selectOptions.map((selectOption) => (
+        <option key={selectOption} value={selectOption}>
+          {selectOption}
+        </option>
+      ))}
+    </select>
+  );
+};

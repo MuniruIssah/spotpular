@@ -3,6 +3,7 @@ import styles from "./GamePlayDisplay.module.css";
 import burna from "../../assets/burn.jpeg";
 import davido from "../../assets/Davido.jpg";
 import { DragDropContext, Droppable, Draggable } from "react-beautiful-dnd";
+import SpotThePop from "./SpotThePop/spotThePop";
 const artists = [
   {
     id: "davido",
@@ -18,7 +19,7 @@ const artists = [
 const GamePlayDisplay = () => {
   return (
     <div className={styles.gamePlayDisplay}>
-      <DragDropContext>
+      {/* <DragDropContext>
         <Droppable droppableId="artists">
           {(provided) => (
             <ul
@@ -48,7 +49,9 @@ const GamePlayDisplay = () => {
             </ul>
           )}
         </Droppable>
-      </DragDropContext>
+      </DragDropContext> */}
+      <SpotThePop images={[davido,burna,burna,davido]} />
+      <button className={styles.nextButton }>Next</button>
     </div>
   );
 };

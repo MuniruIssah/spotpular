@@ -15,6 +15,7 @@ const Playground = () => {
   return (
     <PlaygroundLayout>
       <GamePlayDisplay />
+      {/* <Modal />  */}
     </PlaygroundLayout>
   );
 };

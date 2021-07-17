@@ -1,6 +1,5 @@
 .gamePlayDisplay{
-    width: min(500px,80vw);
-
+    width: min(700px,80vw);
 }
 
 .artists {
@@ -39,3 +38,13 @@
     margin-right: 1rem;
   }
   
+.nextButton{
+  background-color: cornflowerblue;
+  color: white;
+  width: 100%;
+  padding: 10px 0px;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 0.4px;
+  border-radius: 4px;
+}
