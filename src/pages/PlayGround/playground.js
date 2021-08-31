@@ -14,8 +14,8 @@ import GamePlayDisplay from "../../components/GameplayDisplay/gamePlayDisplay";
 const Playground = () => {
   return (
     <PlaygroundLayout>
-      <GamePlayDisplay />
-      {/* <Modal />  */}
+      {/* <GamePlayDisplay /> */}
+      <Modal /> 
     </PlaygroundLayout>
   );
 };

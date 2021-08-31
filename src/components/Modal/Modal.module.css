@@ -8,28 +8,40 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: all 250ms ease-in;
 }
 
 .closeButton {
   color: hsl(240, 3%, 12%);
   transform: rotateZ(40deg);
-  font-size: 25px;
+  font-size: 13px;
+  cursor: pointer;
   font-weight: 600;
   align-self: flex-end;
   width: 20px;
-  height: 30px;
-  background-color: grey;
+  height: 20px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+
+  background-color: rgb(163, 159, 159);
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 50%;
+  transition: all 250ms ease-in;
 }
+.closeButton:hover{
+  transform: rotateZ(135deg);
+  background-color: rgb(175, 54, 54);
 
+}
 .modalForm {
   /* min-height: 20vh; */
   width: min(500px, 80vh);
-  padding: 15px 30px;
+  padding: 25px 30px;
   border-radius: 10px;
+  position: relative;
   display: flex;
   flex-direction: column;
   background-color: hsl(240, 3%, 12%);

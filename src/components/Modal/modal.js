@@ -1,15 +1,24 @@
 import styles from "./Modal.module.css";
-import React from "react";
-
+import React, { useState } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faPlus } from "@fortawesome/free-solid-svg-icons";
 const Modal = () => {
+  const [visible, setVisible] = useState(true);
+  const closeModal=()=>{
+    setVisible(false)
+  }
   return (
-    <div className={styles.modal}>
-      <div className={styles.modalForm}>
-        <div className={styles.closeButton}>+</div>
-        <span className={styles.modalHeading}>Get Started</span>
-        <ModalForm />
-      </div>
-    </div>
+    <>
+      {visible && (
+        <div className={styles.modal}>
+          <div className={styles.modalForm}>
+            <div onClick={closeModal} className={styles.closeButton}><FontAwesomeIcon icon={faPlus} /></div>
+            <span className={styles.modalHeading}>Get Started</span>
+            <ModalForm />
+          </div>
+        </div>
+      )}
+    </>
   );
 };
 
@@ -23,7 +32,7 @@ const ModalForm = () => {
       <label className={styles.formLabels}>Select List Height</label>
       <SelectNumber />
       <label className={styles.formLabels}>Select List Mode</label>
-      <SelectMode/>
+      <SelectMode />
 
       <button className={styles.modalFormButton}>Let's See You Go</button>
     </form>
