@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/spotpular/static/css/main.78530bb7.chunk.css",
+    "main.js": "/spotpular/static/js/main.93815745.chunk.js",
+    "main.js.map": "/spotpular/static/js/main.93815745.chunk.js.map",
+    "runtime-main.js": "/spotpular/static/js/runtime-main.cf278575.js",
+    "runtime-main.js.map": "/spotpular/static/js/runtime-main.cf278575.js.map",
+    "static/js/2.97da0f60.chunk.js": "/spotpular/static/js/2.97da0f60.chunk.js",
+    "static/js/2.97da0f60.chunk.js.map": "/spotpular/static/js/2.97da0f60.chunk.js.map",
+    "index.html": "/spotpular/index.html",
+    "static/css/main.78530bb7.chunk.css.map": "/spotpular/static/css/main.78530bb7.chunk.css.map",
+    "static/js/2.97da0f60.chunk.js.LICENSE.txt": "/spotpular/static/js/2.97da0f60.chunk.js.LICENSE.txt",
+    "static/media/Davido.e71a2d01.jpg": "/spotpular/static/media/Davido.e71a2d01.jpg",
+    "static/media/burn.7cb81ae3.jpeg": "/spotpular/static/media/burn.7cb81ae3.jpeg",
+    "static/media/spotifyWhite.64280787.png": "/spotpular/static/media/spotifyWhite.64280787.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cf278575.js",
+    "static/js/2.97da0f60.chunk.js",
+    "static/css/main.78530bb7.chunk.css",
+    "static/js/main.93815745.chunk.js"
+  ]
+}
