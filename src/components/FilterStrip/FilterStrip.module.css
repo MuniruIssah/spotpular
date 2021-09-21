@@ -3,7 +3,7 @@
   padding: 1rem 20px;
   box-sizing: border-box;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 }
 .filterStripButton {
@@ -12,7 +12,7 @@
   letter-spacing: 0.5px;
   color: white;
   /* font-family: 'Sarala', sans-serif; */
-  background-color:rgb(44, 44, 48,0) ;
+  background-color: rgb(44, 44, 48, 0);
   position: relative;
   z-index: 5100;
   border-radius: 6px;
@@ -34,8 +34,6 @@
   bottom: 0;
 } */
 
-
 .filterStripButton:hover {
-    background-color:rgb(44, 44, 48) ;
-
+  background-color: rgb(44, 44, 48);
 }

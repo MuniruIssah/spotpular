@@ -4,12 +4,12 @@ justify-content: flex-start;
 align-items: center;
 }
 .spIcon img{
-    width: min(60px,100%);
+    width: min(40px,100%);
     /* margin-left: 7%; */
 }
 .spIcon span{
     font-weight: 500;
-    font-size:23px;
+    font-size:18px;
     color: white;
     font-family: 'Mitr', sans-serif;
 }

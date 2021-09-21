@@ -4,7 +4,7 @@ import {  usePalette} from "react-palette";
 export const BottomImageCard = ({ image, title }) => {
     const { data, loading, error}=usePalette(image)
   return (
-    <div className={styles.bottomImageCard} style={{backgroundColor:data.vibrant}}>
+    <div className={styles.bottomImageCard} style={{backgroundColor:data.darkVibrant}}>
       <div
         className={styles.imageDiv}
         style={{ backgroundImage: `url(${image})` }}

@@ -1,5 +1,5 @@
 .startButton{
-    background-color: hsl(9, 79%, 47%);
+    background-color:#000000;
     border: none;
     border-radius: 35px;
     padding: 13px 65px;
@@ -13,6 +13,6 @@
 }
 .startButton:hover{
     transform: scale(1.02);
-    background-color: hsl(9, 79%, 42%);
+    background-color: #000000;
 
 }
