@@ -15,91 +15,21 @@ const Playground = () => {
   return (
     <PlaygroundLayout>
       {/* <GamePlayDisplay /> */}
-      {/* <Modal />  */}
+      <Modal /> 
       <FilterStrip />
-      {/* <div style={{display:'grid',gridTemplateColumns:'repeat(auto-fill,minmax(250px,1fr))'}}> */}
-
       <GridDisplay>
       <BottomImageCard image={burna} title="Burna Boy" />
       <BottomImageCard image={davido} title="Davido" />
       <BottomImageCard image={burna} title="Burna Boy" />
-
-      
-        {/* 
-        <CircularImageCard
-          image={burna}
-          title="Burna Boy"
-          description="Artist"
-        />
-        <BoxImageCard image={burna} title="Burna Boy" description="Artist" />
-        <BottomImageCard image={burna} title="Burna Boy" />
-        <CircularImageCard
-          image={burna}
-          title="Burna Boy"
-          description="Artist"
-        />
-        <BoxImageCard image={burna} title="Burna Boy" description="Artist" />
-        <BottomImageCard image={davido} title="Davido" />
-        <CircularImageCard
-          image={burna}
-          title="Burna Boy"
-          description="Artist"
-        />
-        <BoxImageCard image={burna} title="Burna Boy" description="Artist" />
-        <BottomImageCard image={burna} title="Burna Boy" />
-        <CircularImageCard
-          image={burna}
-          title="Burna Boy"
-          description="Artist"
-        />
-        <BoxImageCard image={davido} title="Davido" description="Artist" />
-        <BottomImageCard image={burna} title="Burna Boy" />  */}
+      <BottomImageCard image={burna} title="Burna Boy" />
+      <BottomImageCard image={davido} title="Davido" />
+      <BottomImageCard image={burna} title="Burna Boy" />
+      <BottomImageCard image={burna} title="Burna Boy" />
+      <BottomImageCard image={davido} title="Davido" />
+      <BottomImageCard image={burna} title="Burna Boy" />
       </GridDisplay> 
-      {/* </div> */}
     </PlaygroundLayout>
   );
 };
 
 export default Playground;
-
-/* <Modal /> */
-
-/* <FilterStrip/> */
-/* <CircularImageCard image={burna} title='Burna Boy' description='Artist' />
-            <CircularImageCard image={burna} title='Burna Boy' description='Artist' /> */
-/* <span className='sectionTitle'>Browse All</span>
-      <GridDisplay>
-        <CircularImageCard
-          image={burna}
-          title="Burna Boy"
-          description="Artist"
-        />
-        <CircularImageCard
-          image={burna}
-          title="Burna Boy"
-          description="Artist"
-        />
-        <BoxImageCard image={burna} title="Burna Boy" description="Artist" />
-        <BottomImageCard image={burna} title="Burna Boy" />
-        <CircularImageCard
-          image={burna}
-          title="Burna Boy"
-          description="Artist"
-        />
-        <BoxImageCard image={burna} title="Burna Boy" description="Artist" />
-        <BottomImageCard image={davido} title="Davido" />
-        <CircularImageCard
-          image={burna}
-          title="Burna Boy"
-          description="Artist"
-        />
-        <BoxImageCard image={burna} title="Burna Boy" description="Artist" />
-        <BottomImageCard image={burna} title="Burna Boy" />
-        <CircularImageCard
-          image={burna}
-          title="Burna Boy"
-          description="Artist"
-        />
-        <BoxImageCard image={davido} title="Davido" description="Artist" />
-        <BottomImageCard image={burna} title="Burna Boy" />
-      </GridDisplay> */

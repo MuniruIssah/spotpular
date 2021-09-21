@@ -13,17 +13,16 @@
 
 .closeButton {
   color: hsl(240, 3%, 12%);
-  transform: rotateZ(40deg);
-  font-size: 13px;
+  transform: rotateZ(45deg);
   cursor: pointer;
   font-weight: 600;
   align-self: flex-end;
   width: 20px;
   height: 20px;
   position: absolute;
-  top: 10px;
-  right: 10px;
-
+  top: 15px;
+  right: 15px;
+  font-size: 15px;
   background-color: rgb(163, 159, 159);
   display: flex;
   justify-content: center;
@@ -32,7 +31,7 @@
   transition: all 250ms ease-in;
 }
 .closeButton:hover{
-  transform: rotateZ(135deg);
+  transform: rotateZ(140deg);
   background-color: rgb(175, 54, 54);
 
 }
@@ -87,6 +86,7 @@
 
 .radioButtonGroup {
   display: flex;
+  margin-bottom: 1rem;
 }
 
 .formLabels {
@@ -102,7 +102,7 @@
   border-radius: 6px;
   height: 25px;
   color: white;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
 }
 .modeSelect {
   width: 80%;
@@ -111,9 +111,9 @@
   background-position: right 0.7em top 50%, 0 0;
   background-size: 0.65em auto, 100%;
   padding: 10px;
-  font-size: 16px;
+  font-size: 14px;
   border-radius: 6px;
-  height: 35px;
+  height: 45px;
   color: black;
   margin-bottom: 0.5rem;
 }

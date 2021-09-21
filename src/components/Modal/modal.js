@@ -80,7 +80,7 @@ const SelectNumber = () => {
 };
 
 const SelectMode = () => {
-  const selectOptions = ["Level", "Race Against Time"];
+  const selectOptions = ["Epic", "Race Against Time"];
   return (
     <select className={styles.modeSelect}>
       {selectOptions.map((selectOption) => (
